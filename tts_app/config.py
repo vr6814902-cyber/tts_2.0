@@ -17,11 +17,11 @@ _AUDIO_DIR = os.path.join(_DIR, "audio_file")
 OUTPUT_WAV = os.path.join(_DIR, "output_final.wav")
 
 VOICE_CONFIG = {
-    "Female (English)": {
+    "Female": {
         "wav":  os.path.join(_AUDIO_DIR, "audio.wav"),
         "lang": "en",
     },
-    "Male (Hindi)": {
+    "Male": {
         "wav":  os.path.join(_AUDIO_DIR, "hindi.wav"),
         "lang": "hi",
     },
